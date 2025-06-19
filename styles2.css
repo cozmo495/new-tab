@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap'); /* Importing the Inter Tight font from Google Fonts */
+h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-size: 45px;
+}
+body {
+    background-image: url("https://wallpapercave.com/wp/wp7216449.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "inter tight", sans-serif; /* Applying the imported font */
+}
+#news {
+    position:relative;
+    text-align: center;
+    top: 350px;
+}
+#newstitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}

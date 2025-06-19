@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap'); /* Importing the Inter Tight font from Google Fonts */
+h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-size: 45px;
+}
+form {
+    text-align: center;
+    position: relative;
+    top: 325px;
+    font-size: 25px;
+}
+#instructions {
+    text-align: center;
+    position: relative;
+    top: 350px;
+    font-size: 20px;
+}
+#searchconfirmation {
+    text-align: center;
+    position: relative;
+    top: 375px;
+    font-size: 20px;
+}
+body {
+    background-image: url("https://wallpapercave.com/wp/wp7216449.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "inter tight", sans-serif; /* Applying the imported font */
+}
+.white-text {
+    color: white;
+}
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0.3; /* Setting initial opacity to 0.5 */
+    background-color: black; /* Setting background color to black */
+}
+input[type="text"]:focus {
+    opacity: 1; /* Full opacity on focus */
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow on focus */
+}
+input[type="text"]::placeholder {
+    color: white; /* Placeholder text color */
+    opacity: 1; /* Placeholder text opacity */
+    text-align: center; /* Centering the placeholder text */
+    font-family: "inter tight", sans-serif; /* Applying the imported font to placeholder */
+}
+button[id="searchqueryconfirm"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 16px;
+    background: linear-gradient(to right, #000000, #0062ff); /* Change background on hover */
+    color: white; /* Button text color */
+    cursor: pointer;
+    transition: transform 0.7s ease; /* Smooth transition for hover effects */
+}
+input[type="radio"] {
+    background: linear-gradient(to right, #000000, #0052ff);
+}
+input[type="radio"]:hover {
+    transform: scale(1.1); /* Slightly enlarge button on hover */
+}
+input[type="radio"]:active {
+    background: linear-gradient(to right, #0052ff, #ffffff);
+    transform: scale(0.95); 
+}
+button[id="searchqueryconfirm"]:hover {
+    background: linear-gradient(to right, #3d3d3d, #0062ff); /* Change background on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+button[id="searchqueryconfirm"]:active {
+    transform: scale(0.95); /* Slightly shrink button on click */
+}
